@@ -1,7 +1,8 @@
-# Base Rails
+# Final Project - Jeremy Brown (Sect. 85)
 
-## Standard Workflow
+## Description
 
- 1. Start the web server by running `bin/server`.
- 1. Navigate to your live application.
- 1. As you work, remember to navigate to `/git` and **commit often as you work.**
+ 1. Problem Statement: I often encouter the problem of deciding what to make for dinner. I enjoy cooking, and love exploring, but often there ends up being so many recipes that it is hard to decide on just one (without a form of buyer's remorse, at least). I want to build a tool that solves this issue and turns a dilemma into an exciting and exploratory exercise.
+ 2. Solution: The application will take in any preferences/prerequisites (e.g. dietary restrictions, type of dish, meal time, etc.) and then display a suggested recipe. Users will also have the option to browse for a recipe (as they do in competitor sites - e.g. AllRecipe.com)
+ 3. Mechanics: There are not many tables that will be needed for an MVP of this problem:solution. To begin, there will need to be a table storing recipes. There will also need to be a table for storing users. These tables will then need to be connected, so that liked/disliked recipes can be displayed for the User moving forward.
+ 4. Wishlist Items(Backlog): There are a few features/requirements which are not neccessary for the MVP. These include users being able to interact with eachtoher, users being able to create/update the recipes in the database, users being able to leave reviews on recipes, etc.. These features, I deem, as "nice to have" as they do not directly deal with solving the core problem.
